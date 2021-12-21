@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="541808e3-813c-4cc5-8e2a-a08001988c6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KullaniciController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/YorumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/KullaniciConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/UrunYorumConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dao/KullaniciDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dao/UrunYorumDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/KullaniciDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/UrunYorumByKullaniciDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/UrunYorumByUrunDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/UrunYorumDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/entity/Kullanici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/entity/UrunYorum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/exception/KullaniciNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/exception/UrunYorumNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/KullaniciEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/UrunYorumEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/comment_inserts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/user_inserts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/SpringBootTrainingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/SpringBootTrainingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/controller/KategoriController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KategoriController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/controller/UrunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/UrunController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/converter/JsonResponseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/JsonResponseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/converter/KategoriConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/KategoriConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/converter/ResponseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/ResponseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/converter/UrunConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/UrunConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/converter/XmlResponseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/converter/XmlResponseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/dao/KategoriDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dao/KategoriDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/dao/UrunDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dao/UrunDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/dto/KategoriDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/KategoriDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/dto/UrunDetayDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/UrunDetayDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/dto/UrunDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/dto/UrunDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/entity/Kategori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/entity/Kategori.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/entity/Urun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/entity/Urun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/exception/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/exception/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/exception/UrunNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/exception/UrunNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/service/WebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/WebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/service/entityservice/KategoriEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/KategoriEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/service/entityservice/UrunEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/UrunEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bahadirmemis/springboot/SpringBootTrainingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecirsulga/springboot/SpringBootTrainingApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="spring-boot-training/invalid/Kotlin" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="22COml28q6AOp6lri6uSkiuiaHg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bahadirmemis/springboot/entity" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ecome\Desktop\N11_BootCamp\12-12\n11-bootcamp-spring-boot-training\src\main\java\com\bahadirmemis\springboot\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringBootTrainingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecirsulga.springboot.SpringBootTrainingApplication" />
+      <module name="spring-boot-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bahadirmemis.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootTrainingApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="541808e3-813c-4cc5-8e2a-a08001988c6a" name="Default Changelist" comment="" />
+      <created>1639338264591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639338264591</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KategoriController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KullaniciController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KullaniciController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KullaniciController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KullaniciController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/KullaniciEntityService.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/controller/KullaniciController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/UrunYorumEntityService.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ecirsulga/springboot/service/entityservice/UrunYorumEntityService.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
